@@ -140,7 +140,7 @@ main {
 {
   display: inline;
   position: absolute;
-  left: -500px;  /*The tutorial file had -999px*/
+  left: -500px;  /*The tutorial file had -999px, I think it took too long to show up from that position.*/
   transition: var(--transition-speed);
 }
 
@@ -188,7 +188,8 @@ main {
 
  .navbar:hover .link-text {
    display: inline;
-   /* transition: opacity var(--transition-speed); */ /*His file doesn't have this? */
+   /* transition: opacity var(--transition-speed); */
+   /* ^^^His file doesn't have this? Even though he showed it in video. */
  }
 
  .navbar:hover .logo svg
