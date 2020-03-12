@@ -197,8 +197,7 @@ main {
    margin-left:11rem;
  }
 
- .navbar:hover .logo-text
- {
+ .navbar:hover .logo-text {
    left: 0px;
  }
 }
