@@ -45,7 +45,7 @@ main {
   position: fixed;
   background-color: var(--bg-primary);
   /* background-image: url("images/sakura.png"); */
-  background-color:transparent;
+  /* background-color:transparent; */
   /* Testing^^^ */
   transition: width 600ms ease; /*This just said 200ms ease in video */
   /* overflow: scroll; */ /*This makes scroll bars appear in navbar. */
@@ -75,7 +75,7 @@ main {
   height: 5rem;
   color: var(--text-primary);
   text-decoration: none;
-  filter: grayscale(25%) opacity(1);
+  filter: grayscale(55%) opacity(0.8);
   transition: var(--transition-speed);
 }
 
@@ -193,7 +193,7 @@ main {
 
  .navbar:hover .link-text {
    display: inline;
-   /* transition: opacity var(--transition-speed); */
+   transition: opacity var(--transition-speed);
    /* ^^^His file doesn't have this? Even though he showed it in video. */
  }
 
