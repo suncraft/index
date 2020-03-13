@@ -13,7 +13,7 @@
 body {
   color: black;
   background-color: #FFDAE1;
-  /* background-image: url("images/sakura.png");     */
+  background-image: url("images/sakura.png");
 /* Testing!^ */
   background-repeat: repeat;
   font-family: Century Gothic;
@@ -44,6 +44,9 @@ main {
   height: 100vh;   /* This and above^ showed in video, but he moved it */
   position: fixed;
   background-color: var(--bg-primary);
+  /* background-image: url("images/sakura.png"); */
+  background-color:transparent;
+  /* Testing^^^ */
   transition: width 600ms ease; /*This just said 200ms ease in video */
   /* overflow: scroll; */ /*This makes scroll bars appear in navbar. */
 }
@@ -72,7 +75,7 @@ main {
   height: 5rem;
   color: var(--text-primary);
   text-decoration: none;
-  filter: grayscale(100%) opacity(0.7);
+  filter: grayscale(100%) opacity(0.9);
   transition: var(--transition-speed);
 }
 
@@ -125,6 +128,8 @@ main {
   text-align: center;
   color: var(--text-secondary);
   background: var(--bg-secondary);
+  background-color:transparent;
+  /* Testing^^ */
   font-size: 1.5rem;
   /* text-transform: uppcase; */ /*For some reason we type this twice? */
   letter-spacing: 0.3ch;
