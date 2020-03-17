@@ -215,6 +215,11 @@ main {
  .card-wide {
    grid-column: span 2 / auto;
  }
+
+ .card-large {
+   grid-column: span 2 / auto;
+   grid-row: span 2 / auto;
+ }
 }
 
 .basic-grid {
