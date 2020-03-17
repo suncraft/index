@@ -153,6 +153,8 @@ main {
   transform: rotate(-180deg); /*-540deg makes it spin faster */
 }
 
+
+
 /* Small screens */
 @media only screen and (max-width: 800px) {
   .navbar {
@@ -205,6 +207,14 @@ main {
  .navbar:hover .logo-text {
    left: 0px;
  }
+
+ .card-tall {
+   grid-row: span 2 / auto;
+ }
+
+ .card-wide {
+   grid-column: span 2 / auto;
+ }
 }
 
 .basic-grid {
@@ -222,7 +232,7 @@ main {
   grid-auto-rows: 240px;
 }
 
-@media screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .card-tall {
     grid-row: span 2 / auto;
   }
@@ -231,4 +241,4 @@ main {
     grid-column: span 2 / auto;
   }
 
-}
+} */
